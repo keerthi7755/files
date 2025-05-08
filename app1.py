@@ -6,7 +6,7 @@ from PIL import Image  # For image handling
 GOOGLE_API_KEY = "AIzaSyBChtpfxdTTuHGV_UY1-i6EpBhC03-1K1M"
 genai.configure(api_key=GOOGLE_API_KEY)
 
-st.set_page_config(page_title="CodeGPT - AI Debugger", page_icon="🧑‍💻")
+st.set_page_config(page_title="AUTOCODER X", page_icon="🧑‍💻")
 # 🎨 Custom Styling for UI
 st.markdown("""
     <style>
@@ -28,7 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # 🏆 Title & Introduction
-st.markdown("<h1 style='text-align: center; color: #007bff;'>✨ CODE GPT ✨</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: #007bff;'>✨ AUTOCODER X ✨</h1>", unsafe_allow_html=True)
 st.markdown("#### 🚀 Empower Your Coding with AI | Debug • Explain • Optimize")
 
 # 🎯 Sidebar for Feature Selection
